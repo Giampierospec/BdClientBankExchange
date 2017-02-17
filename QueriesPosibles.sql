@@ -1,0 +1,1 @@
+﻿SELECT PRESTAMOS.capital as cap, PRESTAMOS.plazo as pl, PRESTAMOS.tasa as ts FROM CLIENTE INNER JOIN PRESTAMOS ON CLIENTE.id = PRESTAMOS.idCliente WHERE CLIENTE.nombreCliente = 'giampiero'
